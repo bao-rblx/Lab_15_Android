@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">News Reader</string>
+    <string name="loading">Loading posts…</string>
+    <string name="loaded_count">%1$d posts (parser: %2$s)</string>
+    <string name="load_failed">Could not load posts</string>
+    <string name="retry">Retry</string>
+    <string name="parser_gson">Parser: Gson</string>
+    <string name="parser_manual">Parser: Manual</string>
+    <string name="err_no_internet">No internet connection.\nPlease turn off Airplane Mode or check Wi-Fi/mobile data, then tap Retry.</string>
+    <string name="err_timeout">The server took too long to respond. Please try again.</string>
+    <string name="err_permission">The app is missing the INTERNET permission in AndroidManifest.xml.</string>
+    <string name="err_parse">Received data in an unexpected format (JSON parsing failed).</string>
+    <string name="err_server">Server error: %1$s</string>
+    <string name="err_unknown">Unexpected error (%1$s). Please try again.</string>
+</resources>
